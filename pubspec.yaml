@@ -1,0 +1,32 @@
+name: login_app
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.12.0
+
+  cupertino_icons: ^0.1.2
+  mysql1: ^0.17.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - logo.png
+  fonts:
+    - family: NotoSans
+      fonts:
+      - asset: fonts/NotoSans-Regular.ttf
+    - family: Montserrat
+      fonts:
+      - asset: fonts/Montserrat-Regular.ttf
